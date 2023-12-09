@@ -281,5 +281,41 @@ a{
 }
 
 .image-list-item {
-    width: calc((100% - 48px) / 3)
+    width: calc((100% - 48px) / 3);
+}
+
+.forth-section {
+    padding: 120px 0;
+}
+
+.our-team-title {
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    text-transform: capitalize;
+    color: var(--brand-color-navy-blue);
+    margin-bottom: 72px;
+}
+
+.our-team-list {
+    display: flex;
+    gap: 24px;
+}
+
+.list-item {
+    width: calc((100% - 72px) / 4);
+    border-radius: 0px 0px 4px 4px 4px;
+}
+
+.team-member {
+    padding: 32px 0;
+}
+
+.list-member-title {
+    text-align: center;
+    margin-bottom: 8px;
+}
+
+.list-member-paragraph {
+    text-align: center;
 }
