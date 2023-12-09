@@ -200,9 +200,6 @@ a{
 
 .container {
     width: 1158px;
-    margin: 0 auto;
-    padding: 0.15px;
-    border-bottom: 1px solid #e7e9fc;
 }
 
 
@@ -226,4 +223,22 @@ a{
 
 .img {
     display: block;
+}
+
+.first-section {
+    padding: 188px 0;
+}
+
+.first-title {
+    max-width: 496px;
+}
+
+.order-service-button {
+    display: block;
+    min-width: 169px;
+    height: 56px;
+    border: none;
+    background-color: #4D5AE5;
+    border-radius: 4px;
+    cursor: pointer;
 }
