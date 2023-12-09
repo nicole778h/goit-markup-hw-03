@@ -247,7 +247,12 @@ a{
     padding: 120px 0;
 }
 .visually-hidden {
+    overflow: hidden;
     visibility: hidden;
+    height: 1px;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
 .what-are-we-doing-list {
     display: flex;
