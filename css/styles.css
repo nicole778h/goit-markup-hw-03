@@ -191,3 +191,34 @@ a{
     color: #F4F4FD;
     letter-spacing: 0.02em;
 }
+
+.nav-section {
+    display: flex;
+    align-items: center;
+}
+
+
+.container {
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0.15px;
+}
+
+
+.logo {
+    margin-right: 76px;
+}
+
+.logo-link {
+    margin-right: 76px;
+}
+
+.nav-list {
+    display: flex;
+    gap: 40px;
+
+}
+
+.nav-search {
+    padding: 24px 0;
+}
