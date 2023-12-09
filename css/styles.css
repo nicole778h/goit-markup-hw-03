@@ -242,3 +242,24 @@ a{
     border-radius: 4px;
     cursor: pointer;
 }
+
+.second-section {
+    padding: 120px 0;
+}
+
+.title {
+    visibility: hidden;
+}
+
+.what-are-we-doing-list {
+    display: flex;
+    gap: 24px;
+}
+
+.features-list {
+    width: calc((100% - 72px) / 4);
+}
+
+.list-title {
+    margin-bottom: 8px;
+}
