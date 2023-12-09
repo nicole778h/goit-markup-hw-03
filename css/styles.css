@@ -266,3 +266,20 @@ a{
 .list-title {
     margin-bottom: 8px;
 }
+
+.third-section {
+    padding-bottom: 120px;
+}
+
+.second-title {
+    margin-bottom: 72px;
+}
+
+.image-list {
+    display: flex;
+    gap: 24px;
+}
+
+.image-list-item {
+    width: calc((100% - 48px) / 3)
+}
