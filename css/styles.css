@@ -246,11 +246,9 @@ a{
 .second-section {
     padding: 120px 0;
 }
-
-.title {
+.visually-hidden {
     visibility: hidden;
 }
-
 .what-are-we-doing-list {
     display: flex;
     gap: 24px;
