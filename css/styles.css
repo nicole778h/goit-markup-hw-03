@@ -202,6 +202,7 @@ a{
     width: 1158px;
     margin: 0 auto;
     padding: 0.15px;
+    border-bottom: 1px solid #e7e9fc;
 }
 
 
@@ -221,4 +222,8 @@ a{
 
 .nav-search {
     padding: 24px 0;
+}
+
+.img {
+    display: block;
 }
