@@ -30,7 +30,6 @@ a{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 24px 0;
 }
 
 .logo-link {
@@ -42,7 +41,6 @@ a{
     letter-spacing: 0.03em;
     text-transform: uppercase;
     text-decoration: none;
-    padding: 24px 0;
 
 }
 
@@ -58,7 +56,7 @@ a{
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-decoration: none;
-
+    padding: 24px 0;
 }
 
 .nav-link:hover,
