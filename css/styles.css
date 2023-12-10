@@ -200,6 +200,8 @@ a{
 
 .container {
     width: 1158px;
+    margin: 0;
+    padding: 0 15px;
 }
 
 
@@ -341,5 +343,9 @@ a{
 }
 
 .div-member {
-    padding: 32px 0
+    padding: 32px 0;
+}
+
+.header-div {
+    display: flex;
 }
