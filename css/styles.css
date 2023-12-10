@@ -183,6 +183,7 @@ a{
 .all-button:focus {
     color: #FFFFFFFF;
     background-color: var(--brand-color-ocean);
+    border: 1px solid transparent;
 
 }
 
@@ -348,4 +349,28 @@ a{
 
 .header-div {
     display: flex;
+}
+
+.buttons-list {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-bottom: 72px;
+}
+
+.all-button {
+    padding: 12px 24px;
+    border: 1px solid #e7e9fc;
+    border-radius: 4px;
+}
+
+.portfolio-list {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 24px;
+    row-gap: 48px;
+}
+
+.portfolio-list-item {
+    width: calc((100% - 48px) / 3)
 }
