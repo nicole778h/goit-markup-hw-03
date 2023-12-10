@@ -269,8 +269,7 @@ a{
 }
 
 .features-list {
-    width: 100%;
-    min-width: 264px;
+    width: calc((100% - 72px) / 4);
 }
 
 .list-title {
@@ -313,8 +312,7 @@ a{
 }
 
 .list-item {
-    width: 100%;
-    min-width: 264px;
+    width: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px 4px;
 }
 
@@ -380,8 +378,7 @@ a{
 }
 
 .portfolio-list-item {
-    width: 100%;
-    min-width: 264px;
+    width: calc((100% - 48px) / 3);
 }
 
 .portfolio-section {
