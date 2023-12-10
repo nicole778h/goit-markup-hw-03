@@ -259,6 +259,7 @@ a{
   padding: 0;
   white-space: nowrap;
   clip-path: inset(0 0 0 0);
+  clip: rect(0 0 0 0);
   overflow: hidden;
 }
 
@@ -268,8 +269,7 @@ a{
 }
 
 .features-list {
-    width: 100%;
-    min-width: 264px;
+    width: calc((100% - 72px) / 4);
 }
 
 .list-title {
