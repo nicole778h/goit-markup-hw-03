@@ -269,7 +269,8 @@ a{
 }
 
 .features-list {
-    width: calc((100% - 72px) / 4);
+    width: 100%;
+    min-width: 264px;
 }
 
 .list-title {
@@ -312,7 +313,8 @@ a{
 }
 
 .list-item {
-    width: calc((100% - 72px) / 4);
+    width: 100%;
+    min-width: 264px;
     border-radius: 0px 0px 4px 4px 4px;
 }
 
